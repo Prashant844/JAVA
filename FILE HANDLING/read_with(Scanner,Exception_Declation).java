@@ -10,5 +10,7 @@ public class read4 {
                     String input = UserInput.nextLine();
                     System.out.println(input + " ");
                 }
+        f.close();
+        System.out.println("File Read Successfully and Close it.");
     }
 }
